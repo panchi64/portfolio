@@ -9,8 +9,6 @@ Below you'll find instructions on how to run the site locally, where to find any
 First, initiate the development server by running the following command in your terminal:
 
 ```bash
-npm run dev
-# or
 yarn dev
 ```
 
