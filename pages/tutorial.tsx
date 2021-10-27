@@ -1,6 +1,6 @@
 import { Container, Flex, VStack } from "@chakra-ui/react";
-import Cart from "../components/Cart";
-import Details from "../components/Details";
+import Cart from "../components/cart";
+import Details from "../components/details";
 
 const IndexPage = () => {
   return (
