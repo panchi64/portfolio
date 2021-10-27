@@ -1,16 +1,4 @@
-import {
-  FormControl,
-  FormLabel,
-  Input,
-  VStack,
-  Heading,
-  Text,
-  GridItem,
-  SimpleGrid,
-  Select,
-  Checkbox,
-  Button,
-} from "@chakra-ui/react";
+import { VStack, Heading, Text, Button } from "@chakra-ui/react";
 
 const Cart = () => {
   return (
