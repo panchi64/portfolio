@@ -66,7 +66,9 @@ const theme = extendTheme(
       },
       Button: {
         variants: {
+          // @ts-ignore => ignore this instance, since the props can literally be anything (i think?)
           primary: (props) => ({
+            // @ts-check => reenable and continue checking everything else
             rounded: "none",
             ...brandRing,
             color: mode("white", "gray.800")(props),
