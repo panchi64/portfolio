@@ -51,7 +51,7 @@ const Cart = () => {
           alignItems="center"
         >
           <VStack w="full" spacing={0} alignItems="flex-start">
-            <Heading size="md">Penny board</Heading>
+            <Heading size="md">Burnt Laptop</Heading>
             <Text color={secondaryTextColor}>PNYCOMP27541</Text>
           </VStack>
           <Heading size="sm" textAlign="end">
