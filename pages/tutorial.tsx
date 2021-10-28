@@ -4,8 +4,12 @@ import Details from "../components/details";
 
 const IndexPage = () => {
   return (
-    <Container maxWidth="container.xl" paddingLeft={10} paddingRight={10}>
-      <Flex height="100vh" paddingY={20}>
+    <Container maxWidth="container.xl" padding={0}>
+      <Flex
+        height={{ base: "auto", md: "100vh" }}
+        paddingY={[0, 10, 20]}
+        direction={{ base: "column-reverse", md: "row" }}
+      >
         <Details />
         <Cart />
       </Flex>
