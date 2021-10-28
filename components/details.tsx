@@ -79,7 +79,7 @@ const Details = () => {
         </GridItem>
         {/* The place order button */}
         <GridItem colSpan={2}>
-          <Button size="lg" width="full">
+          <Button colorScheme="brand" size="lg" width="full">
             Place Order
           </Button>
         </GridItem>
